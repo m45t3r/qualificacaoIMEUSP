@@ -1,0 +1,96 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2013.5.22)  8 JUL 2013 21:02
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**nomencl.ins
+(./nomencl.ins
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, po
+rtuguese, loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/docstrip.tex
+\blockLevel=\count79
+\emptyLines=\count80
+\processedLines=\count81
+\commentsRemoved=\count82
+\commentsPassed=\count83
+\codeLinesPassed=\count84
+\TotalprocessedLines=\count85
+\TotalcommentsRemoved=\count86
+\TotalcommentsPassed=\count87
+\TotalcodeLinesPassed=\count88
+\NumberOfFiles=\count89
+\inFile=\read1
+\inputcheck=\read2
+\off@0=\count90
+\off@1=\count91
+\off@2=\count92
+\off@3=\count93
+\off@4=\count94
+\off@5=\count95
+\off@6=\count96
+\off@7=\count97
+\off@8=\count98
+\off@9=\count99
+\off@10=\count100
+\off@11=\count101
+\off@12=\count102
+\off@13=\count103
+\off@14=\count104
+\off@15=\count105
+\@maxfiles=\count106
+\@maxoutfiles=\count107
+
+Utility: `docstrip' 2.5d <2005/07/29>
+English documentation    <1999/03/31>
+
+**********************************************************
+* This program converts documented macro-files into fast *
+* loadable files by stripping off (nearly) all comments! *
+**********************************************************
+
+********************************************************
+* No Configuration file found, using default settings. *
+********************************************************
+
+)
+
+Generating file(s) ./nomencl.sty ./sample01.cfg ./sample02.cfg ./sample04.cfg .
+/sample05.cfg ./nomencl.drv ./nomencl.ist 
+\openout0 = `./nomencl.sty'.
+
+\openout1 = `./sample01.cfg'.
+
+\openout2 = `./sample02.cfg'.
+
+\openout3 = `./sample04.cfg'.
+
+\openout4 = `./sample05.cfg'.
+
+\openout5 = `./nomencl.drv'.
+
+\openout6 = `./nomencl.ist'.
+
+
+Processing file nomencl.dtx (package) -> nomencl.sty
+                            (sample01) -> sample01.cfg
+                            (sample02) -> sample02.cfg
+                            (sample04) -> sample04.cfg
+                            (sample05) -> sample05.cfg
+                            (driver) -> nomencl.drv
+                            (idxstyle) -> nomencl.ist
+Lines  processed: 1303
+Comments removed: 1020
+Comments  passed: 31
+Codelines passed: 232
+
+ ) 
+Here is how much of TeX's memory you used:
+ 373 strings out of 495040
+ 3847 string characters out of 3181272
+ 54966 words of memory out of 3000000
+ 3650 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 16 hyphenation exceptions out of 8191
+ 13i,0n,15p,207b,190s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+No pages of output.

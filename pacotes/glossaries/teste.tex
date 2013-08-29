@@ -1,0 +1,66 @@
+\documentclass{article}
+
+% Load hyperref before glossaries
+\usepackage[colorlinks]{hyperref}
+\usepackage[acronym,toc]{glossaries}
+
+% Define a new glossary type
+\newglossary[slg]{symbols}{sym}{sbl}{List of Symbols}
+
+\makeglossaries
+
+% The following definitions will go in the main glossary
+
+\newglossaryentry{culdesac}{name=cul-de-sac,description={passage
+or street closed at one end},plural=culs-de-sac}
+
+\newglossaryentry{elite}{name={\'e}lite,description={select
+group or class},sort=elite}
+
+\newglossaryentry{elitism}{name={\'e}litism,description={advocacy
+of dominance by an \gls{elite}},sort=elitism}
+
+\newglossaryentry{attache}{name=attach\'e,
+description={person with special diplomatic responsibilities}}
+
+% The following definitions will go in the list of acronyms
+
+\newacronym{led}{LED}{light-emitting diode}
+
+\newacronym{eeprom}{EEPROM}{electrically erasable programmable
+read-only memory}
+
+% The following definitions will go in the list of symbols
+
+\newglossaryentry{ohm}{type=symbols,name=ohm,
+symbol={\ensuremath{\Omega}},
+description=unit of electrical resistance}
+
+\newglossaryentry{angstrom}{type=symbols,name={\aa}ngstr\"om,
+symbol={\AA},sort=angstrom,
+description={non-SI unit of length}}
+
+\begin{document}
+\tableofcontents
+
+\section{Diplomatic Memoirs}
+
+When I was an \gls{attache}, I lived in a \gls{culdesac}, but
+I didn't much care for it as I found there was a fair amount
+of \gls{elitism} amongst my neighbours.
+
+\section{Student Memoirs}
+
+When I was a student I often left bits of electronic circuitry
+in my pockets, such as \glspl{led} and \glspl{eeprom}, which
+often ended up in the washing machine. The \glspl{led} didn't
+fair too badly, but the \glspl{eeprom} frequently broke.
+
+\section{Symbols}
+
+The \gls{angstrom} is commonly used in structural biology,
+whereas the \gls{ohm} is used in electronics.
+
+\printglossaries
+
+\end{document}

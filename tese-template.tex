@@ -1,0 +1,64 @@
+% Arquivo LaTeX template de dissertação/tese a ser apresentados à CPG do IME-USP
+% 
+% Versão 5: Sex Mar  9 18:05:40 BRT 2012
+%
+% Criação: Jesús P. Mena-Chalco
+% Revisão: Fabio Kon e Paulo Feofiloff
+% Modificado por Rodrigo Campiolo
+%  
+% Obs: Leia previamente o texto do arquivo README.txt
+
+\documentclass[openany,11pt,twoside,a4paper]{book}
+
+\include{variaveis}
+\include{configuracoes}
+
+% ---------------------------------------------------------------------------- %
+\begin{document}
+
+\configurapretextual
+
+\include{pretextual/capa}
+\include{pretextual/folharosto} 
+%\include{pretextual/folharostofinal}  %somente após a banca e correções
+
+\pagenumbering{roman}     % inicia numeração romana
+
+\include{pretextual/agradecimentos}
+\include{pretextual/resumo}
+\include{pretextual/abstract}
+
+\tableofcontents          % gera o sumário
+
+% ---------------------------------------------------------------------------- %
+\include{pretextual/listaabreviaturas} % usando glossaries
+\include{pretextual/listasimbolos}
+
+% ---------------------------------------------------------------------------- %
+% Listas de figuras e tabelas geradas automaticamente
+\listoffigures            
+\listoftables            
+
+% ---------------------------------------------------------------------------- %
+\configuracapitulos
+
+\include{capitulos/cap-introducao}        % associado ao arquivo: 'cap-introducao.tex'
+\include{capitulos/cap-conceitos}         % associado ao arquivo: 'cap-conceitos.tex'
+\include{capitulos/cap-conclusoes}        % associado ao arquivo: 'cap-conclusoes.tex'
+
+% ---------------------------------------------------------------------------- %
+
+% cabeçalho para os apêndices
+\configurapostextual
+
+\include{postextual/ape-conjuntos}      	% associado ao arquivo: 'ape-conjuntos.tex'
+
+% bibliografia
+\backmatter \singlespacing   			% espaçamento simples
+\bibliographystyle{bibliografia/plainnat-ime}   % citação bibliográfica textual (pode-se usar o "alpha-ime")
+\bibliography{bibliografia/bibliografia}        % associado ao arquivo: 'bibliografia.bib'
+
+% indice remissivo
+\include{postextual/indiceremissivo}
+
+\end{document}
