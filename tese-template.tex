@@ -1,17 +1,17 @@
-% Arquivo LaTeX template de dissertação/tese a ser apresentados à CPG do IME-USP
+% Arquivo LaTeX template de dissertaÃ§Ã£o/tese a ser apresentados Ã  CPG do IME-USP
 % 
-% Versão 5: Sex Mar  9 18:05:40 BRT 2012
+% VersÃ£o 5: Sex Mar  9 18:05:40 BRT 2012
 %
-% Criação: Jesús P. Mena-Chalco
-% Revisão: Fabio Kon e Paulo Feofiloff
+% CriaÃ§Ã£o: JesÃºs P. Mena-Chalco
+% RevisÃ£o: Fabio Kon e Paulo Feofiloff
 % Modificado por Rodrigo Campiolo
 %  
 % Obs: Leia previamente o texto do arquivo README.txt
 
 \documentclass[openany,11pt,twoside,a4paper]{book}
 
-\include{variaveis}
 \include{configuracoes}
+\include{variaveis}
 
 % ---------------------------------------------------------------------------- %
 \begin{document}
@@ -20,15 +20,15 @@
 
 \include{pretextual/capa}
 \include{pretextual/folharosto} 
-%\include{pretextual/folharostofinal}  %somente após a banca e correções
+%\include{pretextual/folharostofinal}  %somente apÃ³s a banca e correÃ§Ãµes
 
-\pagenumbering{roman}     % inicia numeração romana
+\pagenumbering{roman}     % inicia numeraÃ§Ã£o romana
 
 \include{pretextual/agradecimentos}
 \include{pretextual/resumo}
 \include{pretextual/abstract}
 
-\tableofcontents          % gera o sumário
+\tableofcontents          % gera o sumÃ¡rio
 
 % ---------------------------------------------------------------------------- %
 \include{pretextual/listaabreviaturas} % usando glossaries
@@ -48,14 +48,14 @@
 
 % ---------------------------------------------------------------------------- %
 
-% cabeçalho para os apêndices
+% cabeÃ§alho para os apÃªndices
 \configurapostextual
 
 \include{postextual/ape-conjuntos}      	% associado ao arquivo: 'ape-conjuntos.tex'
 
 % bibliografia
-\backmatter \singlespacing   			% espaçamento simples
-\bibliographystyle{bibliografia/plainnat-ime}   % citação bibliográfica textual (pode-se usar o "alpha-ime")
+\backmatter \singlespacing   			% espaÃ§amento simples
+\bibliographystyle{bibliografia/plainnat-ime}   % citaÃ§Ã£o bibliogrÃ¡fica textual (pode-se usar o "alpha-ime")
 \bibliography{bibliografia/bibliografia}        % associado ao arquivo: 'bibliografia.bib'
 
 % indice remissivo
