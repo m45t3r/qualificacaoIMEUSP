@@ -3,7 +3,7 @@
 fcode="$1"
 tcode="$2"
 
-for arq in $(find . -name '*.tex')
+for arq in $(find . -name '*.tex' -o -name '*.bib')
 do
     fcode=$(file --mime-encoding $arq | awk '{print $2;}')
     echo "$arq: $fcode"
